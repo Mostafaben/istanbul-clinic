@@ -50,6 +50,7 @@ const WorkComponent = () => {
             key={`card${index}`}
             onClick={() => handleCardClick(index)}
           >
+            <img src={value.image}  alt={value.title}/>
             <p>{value.title}</p>
           </div>
         ))}

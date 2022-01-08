@@ -228,13 +228,30 @@ nav img {
   flex-wrap: wrap;
 }
 .work .cards .card {
-  padding: 20px;
+  padding: 8px;
   background-color: white;
   border-radius: 8px;
   margin: 10px;
-  transition-duration: 200ms;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  transition-duration: 300ms;
   cursor: pointer;
   box-shadow: 0 2px 48px 0 rgb(0 0 0 / 6%);
+
+}
+.work .cards .card img {
+  height: 48px;
+  width: 0px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition-duration: 200ms;
+  opacity: 0;
+}
+
+.work .cards .card:active {
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  transform: scale(0.95) translateY(5px);
 }
 
 .work .cards .selected-card {
@@ -242,8 +259,13 @@ nav img {
   color: white;
 }
 
+.work .cards .selected-card img {
+  width: 48px !important;
+  opacity: 1;
+}
+
 .work .cards .card p {
-  margin: 0px;
+  margin: 0px 16px;
 }
 
 .work .cards .card:hover {
