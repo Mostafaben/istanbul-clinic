@@ -15,24 +15,29 @@ const IMAGES = {
 
 const TRIP = [
   {
+    image: require("./../assets/consultancy.jpg"),
+    title: "Consultation",
+    text: "Our dedicated team will connect with you and will answer all of your questions. You will be provided with help in order to get to know what's best for your case. Therefore, we will make sure you will be getting the results you are wishing for!",
+  },
+  {
     image: require("./../assets/transportation.jpg"),
     title: "Transportation",
-    text: "Welcome! Upon your arrival to Istanbul, Your private driver will pick you up at the airport, he will be responsible of your transportation between the airport, hotel and the hospital.",
+    text: "a whole fleet of modern and comfortable cars is at your disposal, both at the moment of your arrival at the Istanbul airport and the moment you leave the country.",
   },
   {
     image: require("./../assets/planning.jpg"),
     title: "Planning",
-    text: "Everything is perfectly pre-planned! Your companion translator will guide you through the everyday details, and will do all the logistics for you in order to ensure your comfort.",
+    text: "Your booking and appointments are pre-organized by our Coordination Team, and that's how we like to make sure that the trip goes as smoothly as possible, without any sort of trouble or inconvenience.",
   },
   {
     image: require("./../assets/accommodation.jpg"),
     title: "Accommodation",
-    text: "Your accommodation is pre-booked! Your consultant will provide you with a variety of luxurious Hotels to pick from... And It is FREE !",
+    text: "Your accommodation is pre-booked! Your consultant will provide you with a variety of luxurious hotels to pick from",
   },
   {
-    image: require("./../assets/consultancy.jpg"),
+    image: require("./../assets/Frame 1.png"),
     title: "Aftercare",
-    text: "We are just starting, but never ending! Our medical team will be in your service for a lifetime, you will have continuous follow-up and will answer all your questions and requests!",
+    text: "We are just starting, but never-ending! Our medical team will be at your service for a lifetime, you will have continuous follow-up and will answer all your questions and requests!",
   },
 ];
 
@@ -113,10 +118,16 @@ const INFOS = {
 const WORK = [
   {
     title: "DHI CHOI",
-    image: require("./../assets/IMG-20211203-WA0028.jpg"),
+    image: require("./../assets/58_IMG-20211203-WA0022.jpg"),
     description:
       "In BEST CLINIC ISTANBUL, we use the latest medical technologies in the field of Hair Transplant to meet all of our clients' needs. Hair transplants at our clinic are performed by an experienced medical team of specialist surgeons with at least ten years of experience. Since 2016 Direct Hair Implantation (DHI), also called unshaven hair transplantation, is the most advanced hair transplantation technique used in BEST CLINIC ISTANBUL. DHI offers full and complete control of the angle, direction and depth in which the individual hair follicle is being implanted, in order to ensure that the end result looks as natural as possible at all times. Preparation, graft uptake and post-transplant care are the same as in the FUE methed, but the healing process is faster because the channels are thinner. You can directly contact an expert to analyze your pre and post operation by WhatsApp or e-mail.",
     children: [
+      {
+        title: "Hair transplant",
+        description:
+          "In BEST CLINIC ISTANBUL, we use the latest medical technologies in the field of Hair Transplant to meet all of our clients' needs. Hair transplants at our clinic are performed by an experienced medical team of specialist surgeons with at least ten years of experience. Since 2016 Direct Hair Implantation (DHI), also called unshaven hair transplantation, is the most advanced hair transplantation technique used in BEST CLINIC ISTANBUL. DHI offers full and complete control of the angle, direction and depth in which the individual hair follicle is being implanted, in order to ensure that the end result looks as natural as possible at all times. Preparation, graft uptake and post-transplant care are the same as in the FUE methed, but the healing process is faster because the channels are thinner. You can directly contact an expert to analyze your pre and post operation by WhatsApp or e-mail.",
+        image: require("./../assets/hair-transplant-grafts-do-i-need-7000-grafts-min.png"),
+      },
       {
         title: "Beard implantation",
         description:
@@ -141,8 +152,44 @@ const WORK = [
     title: "Plastic Surgery",
     description:
       "Plastic surgery is a surgical specialty involving the restoration, reconstruction, or alteration of the human body. It can be divided into two main categories: reconstructive surgery and cosmetic surgery. Reconstructive surgery includes craniofacial surgery, hand surgery, microsurgery, and the treatment of burns",
-    image: require("./../assets/plastic.jpg"),
+    image: require("./../assets/IMG-20211203-WA0047.jpg"),
     children: [
+      {
+        title: "Abdominoplast",
+        description:
+          "The tummy tuck is a cosmetic operation that treats the distension of the skin of the stomach, or the abdominal apron in the case of excessive sagging skin.The procedure allows you to find a flat stomach thanks to the practice of three main gestures: sucking the excess fat using liposuction, tightening the muscles of the abdomen to finally remove the excess skin. The abdominoplasty is performed under general anesthesia and lasts about 2 hour 30 minutes. One or three nights of hospitalization should be considered",
+        image: require("./../assets/Abdominoplast.jpg"),
+      },
+      {
+        title: "Breast reduction",
+        description:
+          "Living with large breasts is not always easy and can even become a problem that prevents a woman from living a normal life. This excess volume can be linked to a disproportion between the two breasts which gives the breast a misshapen appearance. Breast reduction in BEST CLINIC ISTANBUL, intervention aimed at reducing the size of the breast is in this case, your best way to get rid of this handicap, in a radical and lasting way",
+        image: require("./../assets/breast reduction.jpeg"),
+      },
+      {
+        title: "BBL brazilian butt lifting",
+        description:
+          "Also Known as “Buttocks augmentation”, that is a surgical cosmetic procedure that increases the size of the buttocks by using fat transfer or butt implants. Buttocks Augmentation includes reshaping and lifting with fat grafting to provide a true, aesthetically proportionate figure that restores the patient’s self-confidence and allows him/her to wear the clothes that he or she wishes.",
+        image: require("./../assets/BBL brazilian butt lifting.jpg"),
+      },
+      {
+        title: "Otoplasty",
+        description:
+          "This is one of the shortest surgical procedures that is performed in BEST CLINIC ISTANBUL to correct protruding ears. The operation can take anywhere from 15 minutes to an hour at most, and involves reshaping the skin and cartilage behind the ear so that it is less noticeable and more aesthetic. Protruding ears are a big problem for men because they cannot hide them, as well as for women because they have to keep a hairstyle that covers their ears; Now BEST CLINIC ISTANBUL is offering this life changing operation for many people to give them more common shapes that greatly improve their confidence.",
+        image: require("./../assets/gal5.jpg"),
+      },
+      {
+        title: "face lipofilling",
+        description:
+          "Also known as fat transfer/injections. It is a surgical process in which, fat is transferred from one part of the body to another. For example, fat can be removed from the belly and transfered to the buttocks.",
+        image: require("./../assets/blog-lipofilling-02.jpg"),
+      },
+      {
+        title: "Jaw Line",
+        description:
+          "By getting injected into the skin, jaw fillers lessen the appearance of sagging and bone loss around the jaw. They create a more defined separation between the jawline and the neck.",
+        image: require("./../assets/jaw.jpg"),
+      },
       {
         title: "Rhinoplasty",
         image: require("./../assets/Rhinoplasty.png"),
@@ -206,29 +253,109 @@ const WORK = [
     ],
   },
   {
-    title: "Breast Aesthetics",
-    image: require("./../assets/IMG-20211203-WA0043.jpg"),
-    description:
-      "Breast Aesthetics covers a number of planned surgical procedures which are available to improve the appearance of breasts, as a result of developmental problems, significant weight loss, or planned alongside breast cancer surgery - when it is termed 'Oncoplastic Surgery'.",
-    children: [],
-  },
-  {
-    title: "Face Aesthetics",
-    children: [],
+    title: "Skin",
+    children: [
+      {
+        title: "BOTOX",
+        description:
+          "freezes muscles to stop creases and wrinkles caused by facial expressions. These are typically found in the upper face, such as the forehead and around the eyes.",
+        image: require("./../assets/injections-botox-quel-age-dr-durbec-lyon.jpg"),
+      },
+      {
+        title: "Dermal fillers",
+        description:
+          "These use hyaluronic acid and similar substances to “fill in” or plump areas that have lost volume and smoothness. This includes wrinkles around the mouth, thin lips, and cheeks that have lost fullness. They may also be used on forehead wrinkles, scars, and other areas that need extra volume for a smoother look.",
+        image: require("./../assets/Accredited-Dermal-Fillers-Training.jpg"),
+      },
+      {
+        title: "Thread lifting",
+        description:
+          "A thread lift is a type of procedure wherein temporary sutures are used to produce a subtle but visible 'lift' in the skin. Instead of removing the patient's loose facial skin surgically, the cosmetic surgeon simply suspends it by stitching up portions of it. ",
+        image: require("./../assets/how-do-thread-lifts-work.jpg"),
+      },
+    ],
     description:
       "Face Aesthetics is a medically led, results-driven clinic with unparalleled experience and expertise in dermal fillers, hair-loss therapy, skin rejuvenation and anti-ageing treatments. We believe in practising safe non-surgical cosmetic treatments and are proud to be accredited by Save Face",
     image: require("./../assets/IMG-20211203-WA0050.jpg"),
   },
   {
-    title: "Bariatric Surgeries",
-    children: [],
+    title: "Weightloss",
+    children: [
+      {
+        title: "Gastric Sleeve",
+        description:
+          "Sleeve gastrectomy is a bariatric surgery that renders the stomach smaller, after which, the patient will not be able to eat the same volumes of food he used to eat before. The gastric sleeve method proved its efficiency with a success rate of up to 90 percent.",
+        image: require("./../assets/Laparoscopic-sleeve-gastrectomy_web.jpg"),
+      },
+      {
+        title: "Gastric Balloon",
+        description:
+          "Also known as Stomach Balloon. It is a device that is temporarily placed in the stomach to help you get rid of weight. It is done when diet and exercising had no effective results. It is noteworthy to mention that the gastric balloon does not require a recovery period or a surgical intervention.",
+        image: require("./../assets/balloon.jpg"),
+      },
+      {
+        title: "Gastric botox",
+        description:
+          "Nowadays, it is known that increasing obesity disease and excess weight can cause many problems in human health. There are many well-known false or incomplete information about overweight, and people who act with this information are known to face different problems. The weight loss drugs taken from the internet especially for losing weight cause problems that can even lead to death. Along with developing medical science and technology, treatment methods for obesity disease and weight loss are also developing. One of these treatment methods is stomach botox",
+        image: require("./../assets/1457597297.jpg"),
+      },
+      {
+        title: "Gastric Bypass",
+        description:
+          "A surgical process in which the size of the stomach is reduced and the first portion of the small intestine is bypassed, which restricts food intake and reduces caloric absorption. Gastric bypass is the most effective treatment for morbid obesity as the resulting weight loss is typically dramatic.",
+        image: require("./../assets/Omega-loop_web.jpg"),
+      },
+    ],
     description:
       "Bariatric surgery includes a variety of procedures performed on people who are obese. Long term weight loss through standard of care procedures is largely achieved by altering gut hormone levels that are responsible for hunger and satiety, leading to a new hormonal weight set point.",
     image: require("./../assets/csm_Surgery_MIC_7320786e2f.jpg"),
   },
   {
     title: "Dental Treatments",
-    children: [],
+    children: [
+      {
+        title: "Microscope advanced dentistry",
+        description:
+          "Microscopic dentistry involves the use of state-of-the-art microscopes to provide close-up images of the patient's dental structures. They're strong enough to magnify the gums, teeth, and oral tissue up to 20 times what the naked eye can see on its own",
+        image: require("./../assets/Endodontics-Specialist-Services.jpg"),
+      },
+      {
+        title: "Paediatric dentistry",
+        description:
+          "Pediatric dentists specialize in oral care for infants, toddlers, children, and teenagers. They are trained to handle: Treatment of children under anesthesia and sedation. Treatment of medically compromised children and adolescents.",
+        image: require("./../assets/pediatric-dentistry.jpg"),
+      },
+      {
+        title: "Crown bridges",
+        description:
+          "Crowns and bridges are related to dental procedures. A crown is a cap that fits over your tooth to protect and restore its appearance. A bridge replaces a missing tooth, and a crown is fitted to each neighboring tooth, which supports the replacement tooth.",
+        image: require("./../assets/Dental-bridge-implant-crown.jpg"),
+      },
+      {
+        title: "Orthodontic dentistry",
+        description:
+          "Orthodontics is a branch of dentistry that treats malocclusion, a dental condition in which the teeth are not correctly positioned when the mouth is closed. It deals with facial and jaw irregularities. Improper alignment of the teeth and jaw arches affects coherent speech, chewing, and biting abilities.",
+        image: require("./../assets/istockphoto-1129200700-612x612.jpg"),
+      },
+      {
+        title: "Dental implant",
+        description:
+          "Dental implant systems consist of a dental implant body and dental implant abutment and may also include an abutment fixation screw. The dental implant body is surgically inserted in the jawbone in place of the tooth's root. The dental implant abutment is usually attached to the implant body by the abutment fixation screw and extends through the gums into the mouth to support the attached artificial teeth.",
+        image: require("./../assets/dental-implant-turkey.jpg"),
+      },
+      {
+        title: "Hollywood smile",
+        description:
+          "Also known as Dental Veneers, which are ultra-thin veneers that are bonded to the front of the patient’s teeth to enhance the beauty, naturality, and strength of their teeth. Best Clinic Istanbul’s Veneers are highly resistant to staining from coffee, tea, or even cigarette smoking. Also, they are great alternatives to painful dental procedures to improve the appearance of your smile.",
+        image: require("./../assets/hollywood-smile.png"),
+      },
+      {
+        title: "Tooth coloured fillings",
+        description:
+          "Fillings are used to repair decayed teeth. Bacteria living on the surfaces of the teeth digest sugary/starchy food residue making cavities in the process.",
+        image: require("./../assets/AdobeStock_133965848-Custom-1024x685.jpeg"),
+      },
+    ],
     description:
       "Implants are a fixed alternative to removable dentures. They may be the only option if the loss of teeth has caused the mouth to shrink so it can no longer support dentures.  You can use implants to replace just a single tooth or several teeth To fit an implant, titanium screws are drilled into the jaw bone to support a crown, bridge or denture Replacement parts take time to prepare. This is to ensure that they fit your mouth and other teeth properly. This means they may not be available on your first visit to the dentist",
     image: require("./../assets/IMG-20211203-WA0079.jpg"),

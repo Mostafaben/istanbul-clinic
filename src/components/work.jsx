@@ -34,6 +34,9 @@ const WorkComponent = () => {
       else setSelectedChildIndex(selectedChildIndex - 1);
     }
   };
+  const handleDotClick = (index) => {
+    setSelectedChildIndex(index * RANGE);
+  }
 
   return (
     <section className="work" id="work">
@@ -70,6 +73,23 @@ const WorkComponent = () => {
             />
             {WORK[selectedIndex].children.length > 0 ? (
               <div className="list-items">
+                <div className="dots">
+                  {new Array(
+                    Math.ceil(WORK[selectedIndex].children.length / RANGE)
+                  )
+                    .fill(0)
+                    .map((_, index) => (
+                      <div
+                        className={
+                          index === Math.floor(selectedChildIndex / RANGE)
+                            ? "dot selected-dot"
+                            : "dot"
+                        }
+                        key={`${index}-dot`}
+                        onClick={() => handleDotClick(index)}
+                      ></div>
+                    ))}
+                </div>
                 <div className="eye">
                   <i className="far fa-eye"></i>
                   <p>

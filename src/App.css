@@ -257,7 +257,7 @@ nav img {
   object-fit: cover;
 }
 .details .list-items {
-  background-color: #3f456f;
+  background-color: #3f456fdc;
   display: flex;
   color: white;
   flex-direction: column;
@@ -271,6 +271,10 @@ nav img {
   z-index: 33;
   bottom: 0px;
   transition-duration: 200ms;
+}
+
+.details .list-items:hover .dots {
+  display: flex !important;
 }
 
 .list-items .eye {
@@ -701,4 +705,29 @@ footer .col {
     opacity: 0;
     transform: translateX(-50px);
   }
+}
+
+.dots {
+  position: absolute;
+  z-index: 112;
+  flex-direction: row;
+  bottom: 20px;
+  width: fit-content;
+  display: none;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-left: -100px;
+}
+.dots .dot {
+  height: 8px;
+  width: 8px;
+  margin: 0px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.455);
+}
+.dots .selected-dot {
+  background-color: white;
 }

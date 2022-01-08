@@ -7,9 +7,12 @@ const Footer = () => {
         <div className="col col-12 col-lg-4 col-xl-4 about">
           <h4>About us</h4>
           <p>
-            BEST CLINIC ISTANBULS has over 10 years experience in hair
-            transplant operations with perfect results, visitor from the whole
-            world, global reputation and high level of service quality
+            With more than 7 years experience, BEST CLINIC ISTANBUL has a high
+            level of health service in accordance with international standards
+            and at a reasonable price. We attract our patients from all around
+            the world, especially from Europe and the Middle East, and provide
+            them an accurate and reliable health services where we focus on
+            patient’s comfort.
           </p>
           <img src={IMAGES.WHITE_LOGO} alt="logo" />
         </div>
@@ -17,10 +20,7 @@ const Footer = () => {
           <h4>Contact us</h4>
           <div className="contact-link">
             <i className="fas fa-map-marker-alt"></i>
-            <p>
-              Address: Basın Ekspres Yolu, Kavak Sk. No:3, 34197 Yenibosna
-              Bahçelievler,İstanbul, Turkey
-            </p>
+            <p>Address: Atakent, 4. Cd. No:36, 34307 Küçükçekmece/İstanbul</p>
           </div>
 
           <div className="contact-link">
