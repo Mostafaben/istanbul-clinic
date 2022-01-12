@@ -7,6 +7,7 @@ import FloatingLinks from "./components/floating_links";
 import NavBar from "./components/nav_bar";
 import WorkComponent from "./components/work";
 import Reservation from "./components/reservation";
+import MedicalTrip from "./components/medical_trip";
 
 function App() {
   React.useEffect(() => {
@@ -60,22 +61,7 @@ function App() {
       </section>
       <WorkComponent />
       <Reservation />
-      <section className="trip" id="trip">
-        <h2>
-          <strong>Your Medical Trip Plan</strong>
-        </h2>
-        <div className="cards row">
-          {TRIP.map((value, index) => (
-            <div className="col col-12 col-md-12 col-lg-3 col-xl-3" key={index}>
-              <div className="card">
-                <img src={value.image} alt="" />
-                <h5>{value.title}</h5>
-                <p>{value.text}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      <MedicalTrip />
       <section className="services" id="services">
         <h2>
           <strong>Our Services</strong>
