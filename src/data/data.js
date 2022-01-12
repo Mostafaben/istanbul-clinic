@@ -95,14 +95,9 @@ const SERVICES = [
   },
 ];
 
-const GALLERY = [
-  require("./../assets/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg"),
-  require("./../assets/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg"),
-  require("./../assets/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg"),
-  require("./../assets/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg"),
-  require("./../assets/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg"),
-  require("./../assets/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg"),
-];
+const GALLERY = new Array(5).fill(
+  require("./../assets/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg")
+);
 
 const INFOS = {
   clinicName: "Best clinic istanbul",
