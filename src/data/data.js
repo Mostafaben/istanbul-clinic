@@ -112,7 +112,7 @@ const INFOS = {
 
 const WORK = [
   {
-    title: "DHI CHOI",
+    title: "Hair Transplant",
     image: require("./../assets/58_IMG-20211203-WA0022.jpg"),
     description:
       "In BEST CLINIC ISTANBUL, we use the latest medical technologies in the field of Hair Transplant to meet all of our clients' needs. Hair transplants at our clinic are performed by an experienced medical team of specialist surgeons with at least ten years of experience. Since 2016 Direct Hair Implantation (DHI), also called unshaven hair transplantation, is the most advanced hair transplantation technique used in BEST CLINIC ISTANBUL. DHI offers full and complete control of the angle, direction and depth in which the individual hair follicle is being implanted, in order to ensure that the end result looks as natural as possible at all times. Preparation, graft uptake and post-transplant care are the same as in the FUE methed, but the healing process is faster because the channels are thinner. You can directly contact an expert to analyze your pre and post operation by WhatsApp or e-mail.",
@@ -150,7 +150,7 @@ const WORK = [
     image: require("./../assets/IMG-20211203-WA0047.jpg"),
     children: [
       {
-        title: "Abdominoplast",
+        title: "Abdominoplasty",
         description:
           "The tummy tuck is a cosmetic operation that treats the distension of the skin of the stomach, or the abdominal apron in the case of excessive sagging skin.The procedure allows you to find a flat stomach thanks to the practice of three main gestures: sucking the excess fat using liposuction, tightening the muscles of the abdomen to finally remove the excess skin. The abdominoplasty is performed under general anesthesia and lasts about 2 hour 30 minutes. One or three nights of hospitalization should be considered",
         image: require("./../assets/Abdominoplast.jpg"),
@@ -245,10 +245,35 @@ const WORK = [
         description:
           "Maintaining a healthy lifestyle, eating a nutritious diet and exercising regularly is important to stay in good shape. But what if despite of all your sincere efforts, you’re still unable to get rid of that excess body fat. Thankfully, we have the solution popularly known as Liposuction. In BEST CLINIC ISTANBUL our medical staff used the Vazer Liposuction 4D which is an excellent cosmetic procedure used to eliminate unwanted body fat using a hollow instrument known as a cannula. Whether in the chin, arms, oval of the face, hips, stomach, saddlebags, thighs, love handles, back, arms, knees, calves or even the ankles, liposuction reconstructive surgery rids patients of their excess fat, depending on their morphology.",
       },
+      {
+        title: "Vaginoplasty",
+        image: require("./../assets/viginal.jpg"),
+        description: `
+        Vaginal cosmetic surgeries are the operations for the treatment of the enlargement of the vaginal canal in the sexual area of women, the emergence of congenital abnormalities, the emergence of normal birth defects or the emergence of age. Such problems in the genital area may cause problems such as incontinence in women.Vaginal aesthetic operations include the correction of structural disorders in the genital area, as well as the treatment of problems such as urinary incontinence.
+        After these operations, self-confidence is regained and the pleasure during sexual intercourse increases. By eliminating the problems as a result of a successful vaginal aesthetic operation, the patient is allowed to wear clothes such as tight trousers or bikinis comfortably.
+        `,
+      },
+      {
+        title: "Gynecomastia",
+        image: require("./../assets/gy.png"),
+        description: `Having full breasts may be something desirable among women, but it certainly is not among men. This surgery is basically a breast reduction surgery. The surgeon performs various methods for reducing the size of the breasts. He can do this by liposuction or by removing the excess fat through incisions.`,
+      },
+      {
+        title: "Scars revision",
+        description:
+          "Scar revision surgery will attempt to minimize a scar so that it is less conspicuous and blends in with the surrounding skin tone and texture.",
+        image: require("./../assets/Scar-1.jpg"),
+      },
+      {
+        title: "Buttocks reduction",
+        description: `The goal of this operation is to create a natural, rounded curve for the buttock, which recalls the look of a slim, well-proportioned athletic body. The suctioning is performed in the back of the thigh, just below the buttock fold, on the hip at the side of the buttock, and in the lower back above the buttocks. Whether buttocks sagging was caused by aging or an immense weight loss, buttocks reduction (liposuction) operation will always be the saver.
+        Accumulating fatty tissue on the buttocks may be inherited, and this fatty tissue is often resistant to diet and exercise. This excess fat in localized areas in the buttocks makes the overall proportions of the body unbalanced. In this case, Reduction is the only way to successfully trim the excess fat for better balance and symmetry of the body.`,
+        image: require("./../assets/2383897.jpg"),
+      },
     ],
   },
   {
-    title: "Skin",
+    title: "Cosmetic treatments",
     children: [
       {
         title: "BOTOX",
@@ -309,47 +334,118 @@ const WORK = [
     title: "Dental Treatments",
     children: [
       {
-        title: "Microscope advanced dentistry",
-        description:
-          "Microscopic dentistry involves the use of state-of-the-art microscopes to provide close-up images of the patient's dental structures. They're strong enough to magnify the gums, teeth, and oral tissue up to 20 times what the naked eye can see on its own",
-        image: require("./../assets/Endodontics-Specialist-Services.jpg"),
-      },
-      {
-        title: "Paediatric dentistry",
-        description:
-          "Pediatric dentists specialize in oral care for infants, toddlers, children, and teenagers. They are trained to handle: Treatment of children under anesthesia and sedation. Treatment of medically compromised children and adolescents.",
-        image: require("./../assets/pediatric-dentistry.jpg"),
-      },
-      {
-        title: "Crown bridges",
-        description:
-          "Crowns and bridges are related to dental procedures. A crown is a cap that fits over your tooth to protect and restore its appearance. A bridge replaces a missing tooth, and a crown is fitted to each neighboring tooth, which supports the replacement tooth.",
-        image: require("./../assets/Dental-bridge-implant-crown.jpg"),
-      },
-      {
-        title: "Orthodontic dentistry",
-        description:
-          "Orthodontics is a branch of dentistry that treats malocclusion, a dental condition in which the teeth are not correctly positioned when the mouth is closed. It deals with facial and jaw irregularities. Improper alignment of the teeth and jaw arches affects coherent speech, chewing, and biting abilities.",
-        image: require("./../assets/istockphoto-1129200700-612x612.jpg"),
-      },
-      {
-        title: "Dental implant",
-        description:
-          "Dental implant systems consist of a dental implant body and dental implant abutment and may also include an abutment fixation screw. The dental implant body is surgically inserted in the jawbone in place of the tooth's root. The dental implant abutment is usually attached to the implant body by the abutment fixation screw and extends through the gums into the mouth to support the attached artificial teeth.",
+        title: "Dental implants",
+        description: `The dental implant is an artificial tooth root, made of appropriate materials and placed in the jawbone so as to provide the function and aesthetic of the missing teeth. Implant treatment is a comfortable, steady and safe application. The dentures made on the implants form a natural structure, replacing the real teeth. While the missing teeth are completed, the healthy teeth are not touched. Start of the implant applications goes back to the beginning of 1800s. Today, there are almost perfect implants with 35-40 year clinical pursuits in the marke.
+        The quality of the available bone is one of the factors affecting the success of the implant. Also, before the treatment and during the implant’s staying in the mouth, the gingivas should be completely healthy.
+        There is not any upper age limit as long as the patient is fine in terms of general health condition. Still, implants are not recommended for very young patients as their bone development is not complete.
+        The implant can be applied to any person who is fine in terms of general heath conditions.
+        In order to provide full merge of the implants with the bone, the burden on the implants should be minimized for the first 2-3 months. Your doctor will not leave you without teeth, providing a temporary denture for you. Then, the permanent teeth will be installed on your implants and the treatment will be completed.`,
         image: require("./../assets/dental-implant-turkey.jpg"),
       },
       {
-        title: "Hollywood smile",
-        description:
-          "Also known as Dental Veneers, which are ultra-thin veneers that are bonded to the front of the patient’s teeth to enhance the beauty, naturality, and strength of their teeth. Best Clinic Istanbul’s Veneers are highly resistant to staining from coffee, tea, or even cigarette smoking. Also, they are great alternatives to painful dental procedures to improve the appearance of your smile.",
-        image: require("./../assets/hollywood-smile.png"),
+        title: "Dental crowns",
+        description: `A crown is a cover that put over a tooth. The crown looks like a natural tooth. It can make your smile perfect. There are mainly three types of crowns. These are Porcelain Crowns, E-Max Crowns and Zirconium Crowns.
+        If you have a large cavity that is not suitable for filling or you had a root canal treatment with amalgam filler or you want to make your smile perfect by covering a discolored or badly shaped tooth, you may need dental crown treatment. Of course if you had implants placed in your mouth, crowns are also placed on top of those implants.     
+        Dental crown treatment is considered as one of the fastest and easiest treatment processes among aesthetic applications. Depending on the number and structure of the teeth to be crowned, the crown treatment can be completed in about 5 to 7 days.`,
+        image: require("./../assets/Dental-bridge-implant-crown.jpg"),
       },
       {
-        title: "Tooth coloured fillings",
-        description:
-          "Fillings are used to repair decayed teeth. Bacteria living on the surfaces of the teeth digest sugary/starchy food residue making cavities in the process.",
+        title: "Dental veneers",
+        description: `Veneer’s (also called tooth caps) are, by definition, made for cosmetic causes . They help us improve your teeth’s overall appearance in a very short amount of time. Basically, a porcelain laminate veneer is a fake tooth that covers the front part of your upper and lower frontal teeth(10 for upper jaw,10 for lower jaw). They are thin shells of porcelains or as such that covers the teeth to give teeth a much more natural and classical look. Here is a before and after veneer photo to give you an idea.
+        They are generally 0.5 mm to 1.2 mm thick, you may think how a small ,thin porcelain can cover your teeth and let you continue eat,drink whatever you want without breaking apart. But, they are actually pretty strong when they bonded to each other and to your tooth. All of that bonding makes the surface of the laminate veneer’s very durable and reliable . Divided we fall, united we stand is a very accurate description for the veneers.
+        They are very easy to apply and a ‘must’ for your whole smile makeover . If you have a chipped,damaged,stained tooth, veneer’s cover those problems easily . If you have a gap between your teeth, veneer’s can close the distance and cover that gap. Veneers also take care of the teeth discoloration problems. With these attributes, veneers will give you the Hollywood smile that you wanted for a long time. They also do that without destroying your tooth structure.
+        Our clinic offers different types of laminate veneers with several different materials and variety of methods of production; you can find the details below. We also use CAD CAM Smile Design technique to examine our patients.`,
+        image: require("./../assets/Veneer.jpg"),
+      },
+      {
+        title: "Invisalign",
+        description: `Invisalign aligners are used for alignment mismatches or positioning problems between teeth. Plaques can be easily removed during the day. Invisalign aligners are an alternative to metal braces for adults. Elimination of the braces have a positive impact on the quality of daily life.
+        Metal braces, which are frequently preferred, have been replaced by Invisalign over the years. With Invisalign, you can enjoy all the benefits of metal braces. The main advantage of Invisalign is that it is not visible from the outside, plaques are transparent. Especially young patients may not enjoy the appearance of braces. This disadvantage is gone with Invisalign.`,
+        image: require("./../assets/Invisalign.jpg"),
+      },
+      {
+        title: "Dentures",
+        description: `The dental implant is an artificial tooth root, made of appropriate materials and placed in the jawbone so as to provide the function and aesthetic of the missing teeth. Implant treatment is a comfortable, steady and safe application. The dentures made on the implants form a natural structure, replacing the real teeth. While the missing teeth are completed, the healthy teeth are not touched. Start of the implant applications goes back to the beginning of 1800s. Today, there are almost perfect implants with 35-40 year clinical pursuits in the marke.
+        The quality of the available bone is one of the factors affecting the success of the implant. Also, before the treatment and during the implant’s staying in the mouth, the gingivas should be completely healthy.
+        There is not any upper age limit as long as the patient is fine in terms of general health condition. Still, implants are not recommended for very young patients as their bone development is not complete.
+        The implant can be applied to any person who is fine in terms of general heath conditions.
+        In order to provide full merge of the implants with the bone, the burden on the implants should be minimized for the first 2-3 months. Your doctor will not leave you without teeth, providing a temporary denture for you. Then, the permanent teeth will be installed on your implants and the treatment will be completed.`,
+        image: require("./../assets/dentures2_4.jpg"),
+      },
+
+      {
+        title: "Cosmetic dentistry",
+        description: `A perfect smile makes you feel better and improves your self-confidence. Hollywood Smile not only makes your smile perfect but also removes your other dental problems. This treatment will provide the patient an aesthetic smile.
+        Our doctors examine patient’s mouth and decide the stages of the treatment. The treatment may vary from person to person such as using veneers or crowns, teeth whitening, implantation, and gummy smile correction.
+        After examination, the treatment is planned according to the shape of teeth and gums. Thanks to the latest and advanced computer technology, it is possible to design a perfect smile in a few hours. Even if the treatment can vary depending on the process, it only takes 5 to 7 days if your treatment plan doesn’t include dental implants.`,
+        image: require("./../assets/Cosmetic dentistry.jpg"),
+      },
+      {
+        title: "Pediatric Dentistry",
+        description: `Pediatric dentistry is a science that examines and provides solutions to oral and dental health problems of children from birth to the end of adolescence. As the teeth of the children start to emerge, the dental system goes through different periods until the permanent teeth emerge. Pediatric dentistry includes different applications such as;
+        Following and preventing dental disorders
+        Treatment of decay in milk (baby teeth) and permanent teeth
+        Preservation of toothless areas that will occur as a result of early tooth extraction.`,
+        image: require("./../assets/pediatric-dentistry.jpg"),
+      },
+      {
+        title: "Root Canal Treatment",
+        description: `The process of removing the nerve of the tooth, cleaning and shaping the cavity and filling special canal filling materials is referred to as root canal treatment. The patient’s condition is important for staging the process. Results can be obtained in one or two sessions. Not only the problems in the teeth but also the problems in the gums may require canal treatment. Cases requiring root canal treatment can be;
+        Severe pain in contact with hot or cold foods
+        Unknown pain
+        Aggravated pain during sleep   
+        Root canal treatment does not cause any pain during treatment. Since local anesthesia is applied, the patient feels no pain at all. However, it is also possible to experience some pain after treatment. It is recommended that the patient does not use that tooth during the healing period. Then the pain in the tooth will gradually go away.`,
+        image: require("./../assets/Root-Canal-Treatment.jpg"),
+      },
+      {
+        title: "Teeth whitening",
+        description: `Teeth whitening involves applying a number of materials to the tooth surface and performing certain processes. There are two different teeth whitening methods. The first one is home bleaching by teeth whitening gel or teeth whitening pen. The second one is called in clinic teeth whitening. In this method, the whitening process is done with UV light or laser light. It is also possible to mention cases where both home bleaching and clinic bleaching are used together.
+        It is recommended to remove the structural defects of the teeth before the aesthetic teeth whitening procedures. Problems such as fracture of tooth structures, tartar formation, and any caries should be solved before bleaching. If the decays are not treated, it is possible that the bleaching ingredients will leak into the decays. The infiltration might cause problems.`,
         image: require("./../assets/AdobeStock_133965848-Custom-1024x685.jpeg"),
       },
+
+      // {
+      //   title: "Microscope advanced dentistry",
+      //   description:
+      //     "Microscopic dentistry involves the use of state-of-the-art microscopes to provide close-up images of the patient's dental structures. They're strong enough to magnify the gums, teeth, and oral tissue up to 20 times what the naked eye can see on its own",
+      //   image: require("./../assets/Endodontics-Specialist-Services.jpg"),
+      // },
+      // {
+      //   title: "Paediatric dentistry",
+      //   description:
+      //     "Pediatric dentists specialize in oral care for infants, toddlers, children, and teenagers. They are trained to handle: Treatment of children under anesthesia and sedation. Treatment of medically compromised children and adolescents.",
+      //   image: require("./../assets/pediatric-dentistry.jpg"),
+      // },
+      // {
+      //   title: "Crown bridges",
+      //   description:
+      //     "Crowns and bridges are related to dental procedures. A crown is a cap that fits over your tooth to protect and restore its appearance. A bridge replaces a missing tooth, and a crown is fitted to each neighboring tooth, which supports the replacement tooth.",
+      //   image: require("./../assets/Dental-bridge-implant-crown.jpg"),
+      // },
+      // {
+      //   title: "Orthodontic dentistry",
+      //   description:
+      //     "Orthodontics is a branch of dentistry that treats malocclusion, a dental condition in which the teeth are not correctly positioned when the mouth is closed. It deals with facial and jaw irregularities. Improper alignment of the teeth and jaw arches affects coherent speech, chewing, and biting abilities.",
+      //   image: require("./../assets/istockphoto-1129200700-612x612.jpg"),
+      // },
+      // {
+      //   title: "Dental implant",
+      //   description:
+      //     "The dental implant is an artificial tooth root, made of appropriate materials and placed in the jawbone so as to provide the function and aesthetic of the missing teeth. Implant treatment is a comfortable, steady and safe application. The dentures made on the implants form a natural structure, replacing the real teeth. While the missing teeth are completed, the healthy teeth are not touched. Start of the implant applications goes back to the beginning of 1800s. Today, there are almost perfect implants with 35-40 year clinical pursuits in the marke. The quality of the available bone is one of the factors affecting the success of the implant. Also, before the treatment and during the implant’s staying in the mouth, the gingivas should be completely healthy. There is not any upper age limit as long as the patient is fine in terms of general health condition. Still, implants are not recommended for very young patients as their bone development is not complete. The implant can be applied to any person who is fine in terms of general heath conditions. \nIn order to provide full merge of the implants with the bone, the burden on the implants should be minimized for the first 2-3 months. Your doctor will not leave you without teeth, providing a temporary denture for you. Then, the permanent teeth will be installed on your implants and the treatment will be completed.",
+      //   image: require("./../assets/dental-implant-turkey.jpg"),
+      // },
+      // {
+      //   title: "Hollywood smile",
+      //   description:
+      //     "Also known as Dental Veneers, which are ultra-thin veneers that are bonded to the front of the patient’s teeth to enhance the beauty, naturality, and strength of their teeth. Best Clinic Istanbul’s Veneers are highly resistant to staining from coffee, tea, or even cigarette smoking. Also, they are great alternatives to painful dental procedures to improve the appearance of your smile.",
+      //   image: require("./../assets/hollywood-smile.png"),
+      // },
+      // {
+      //   title: "Tooth coloured fillings",
+      //   description:
+      //     "Fillings are used to repair decayed teeth. Bacteria living on the surfaces of the teeth digest sugary/starchy food residue making cavities in the process.",
+      //   image: require("./../assets/AdobeStock_133965848-Custom-1024x685.jpeg"),
+      // },
     ],
     description:
       "Implants are a fixed alternative to removable dentures. They may be the only option if the loss of teeth has caused the mouth to shrink so it can no longer support dentures.  You can use implants to replace just a single tooth or several teeth To fit an implant, titanium screws are drilled into the jaw bone to support a crown, bridge or denture Replacement parts take time to prepare. This is to ensure that they fit your mouth and other teeth properly. This means they may not be available on your first visit to the dentist",
@@ -366,12 +462,12 @@ const RESERVATION = [
 
 const PACKAGE = [
   "Your accommodation in a 4-5 star hotel including wifi and breakfast.",
-  "Transfer between the hotel, the airport and the hospital.",
-  "Blood analyses and a 3D simulation and a consultation with the doctor before doing the operation.",
-  "A medical suitcase includes all the necessary medications after the procedure, with lotions and shampoos.",
+  "Transfer between hotel, airport and the hospital.",
+  "Blood tests, tomography,pcr, 3D simulation, and a consultation with doctor before doing the operation.",
+  "A medical suitcase includes all the necessary medications after the procedure.",
   "Translators and nurses available 24 hours a day.",
   "A PCR test before your return date.",
-  "A check, and a washing session with the doctor will be scheduled 1 day after the operation. ",
+  "A check, and a washing session with the doctor will be scheduled 1 day after the operation.",
 ];
 
 export {
