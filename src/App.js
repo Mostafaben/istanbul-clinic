@@ -8,6 +8,7 @@ import NavBar from "./components/nav_bar";
 import WorkComponent from "./components/work";
 import Reservation from "./components/reservation";
 import MedicalTrip from "./components/medical_trip";
+import CounterSection from "./components/counters";
 
 function App() {
   React.useEffect(() => {
@@ -46,8 +47,8 @@ function App() {
               technology that offers effective solutions and services of the
               highest quality to meet the expectations and desires of our
               patients in all types of cosmetic surgery, hair transplantation,
-              and l dental aesthetics.
-              <strong style={{ color: "blue" }}>BEST CLINIC ISTANBULS</strong>
+              and dental aesthetics.
+              <strong style={{ color: "blue" }}>BEST CLINIC ISTANBUL </strong>
               belief is to offer equipment with the latest medical technologies
               alongside with the best-experienced medical team and doctors in
               order to guarantee the perfect results for all our patients.
@@ -64,12 +65,12 @@ function App() {
       <MedicalTrip />
       <section className="services" id="services">
         <h2>
-          <strong>Our Services</strong>
+          <strong>Why best clinic istanbul ?</strong>
         </h2>
         <div className="row">
           {SERVICES.map((service, index) => (
             <div
-              className="col col-12 col-lg-4 col-xl-4"
+              className="col col-12 col-lg-4 col-xl-3"
               key={`service${index}`}
             >
               <img src={service.image} alt="" />
@@ -83,6 +84,18 @@ function App() {
         <h2>
           <strong>Our team</strong>
         </h2>
+        <p className="text">
+          Our team's dream of BEST CLINIC ISTANBUL started in 2013 and came true
+          in Turkey in 2014 to be well recognized in the field of hair
+          transplant and plastic surgeries in 2015. Our success led us to grow
+          with excellence in the local market in 2017. <br /> Over time, our
+          reputation for success surpassed the local market in 2018, and now
+          that we stand at the end of 2019, we must excel in the local market to
+          reach the global market. and all this is thanks to the professionalism
+          of our staff, and especially our medical staff. the latter is made up
+          of beauticians, hair transplant doctors and surgeons specializing in
+          Aesthetic interventions.
+        </p>
         <div className="row">
           {TEAM.map((member, index) => (
             <div
@@ -101,14 +114,11 @@ function App() {
           ))}
         </div>
       </section>
-
+      <CounterSection />
       <section className="before-after" id="gallery">
         <div className="wrap">
           <h2>Gallery</h2>
-          <p>
-            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-            cillum sint consectetur cupidatat.
-          </p>
+          <p>here is some examples of our work</p>
           <div className="glide hero">
             <div className="glide__track" data-glide-el="track">
               <ul className="glide__slides">

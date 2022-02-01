@@ -1,4 +1,4 @@
-import { IMAGES } from "../data/data";
+import { IMAGES, INFOS } from "../data/data";
 
 const Footer = () => {
   return (
@@ -15,6 +15,10 @@ const Footer = () => {
             patient’s comfort.
           </p>
           <img src={IMAGES.WHITE_LOGO} alt="logo" />
+          <div className="img-inline">
+            <img src={require("./../assets/iso.png")} alt="iso" />
+            <img src={require("./../assets/iso 2.png")} alt="iso 2" />
+          </div>
         </div>
         <div className="col col-12 col-lg-4 col-xl-4">
           <h4>Contact us</h4>
@@ -25,11 +29,11 @@ const Footer = () => {
 
           <div className="contact-link">
             <i className="fas fa-phone"></i>
-            <p>+905397448686</p>
+            <p>{INFOS.phoneNumber}</p>
           </div>
           <div className="contact-link">
             <i className="far fa-envelope"></i>
-            <p>Email: info@clinicexpert.net</p>
+            <p>{INFOS.clinicEmail}</p>
           </div>
         </div>
         <div className="col col-12 col-lg-4 col-xl-4 call">

@@ -1,4 +1,4 @@
-import { IMAGES } from "../data/data";
+import { IMAGES, INFOS } from "../data/data";
 
 const NavBar = () => {
   return (
@@ -13,7 +13,7 @@ const NavBar = () => {
       </div>
       <div className="call-us">
         <p>Call Us!</p>
-        <h3>+905397448686</h3>
+        <h3>{INFOS.phoneNumber}</h3>
       </div>
     </nav>
   );

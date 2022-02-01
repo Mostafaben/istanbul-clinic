@@ -41,68 +41,44 @@ const TRIP = [
   },
 ];
 
-const TEAM = [
-  {
-    image: require("./../assets/client-avatar2.jpg"),
-    name: "Josh Buttler",
-    job: "Web Developer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  },
-  {
-    image: require("./../assets/client-avatar2.jpg"),
-    name: "Josh Buttler",
-    job: "Web Developer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  },
-  {
-    image: require("./../assets/client-avatar2.jpg"),
-    name: "Josh Buttler",
-    job: "Web Developer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  },
-  {
-    image: require("./../assets/client-avatar2.jpg"),
-    name: "Josh Buttler",
-    job: "Web Developer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  },
-  {
-    image: require("./../assets/client-avatar2.jpg"),
-    name: "Josh Buttler",
-    job: "Web Developer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  },
-];
+const TEAM = [];
 
 const SERVICES = [
   {
-    image: require("./../assets/transportation.png"),
-    title: "Transport Gratuit",
+    image: require("./../assets/change.png"),
+    title: "Change your life",
     description:
-      "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet.",
+      "Real change only happens from within and you deserve to have a life the way you want, looking the way you want and feeling the way you feel comfortable. BEST CLINIC ISTANBUL will give you the True Change you deserve, because you are worth.",
   },
   {
     image: require("./../assets/health.png"),
-    title: "PCR",
+    title: "Trust the experts",
     description:
-      " Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet.",
+      "We see through your eyes and hear every worry you feel. Because of this, we work daily to build a lasting relationship and to be part of a family you trust. We only want the best for you, trust the experts.",
+  },
+  {
+    image: require("./../assets/leader-2043010-1730197.webp"),
+    title: "Leadership position",
+    description:
+      "By understanding others and acknowledging our transformative power, we use all the best technological tools in the medical and cosmetic field to guide others towards a healthy life.",
   },
   {
     image: require("./../assets/5063406-min-removebg-preview.png"),
-    title: "Incurrence for life",
+    title: "Patient satisfaction",
     description:
-      "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet.",
+      "In BEST CLINIC ISTANBUL, we measure our success by the satisfaction of our patients. With a 98% customer satisfaction rate and more than 96% successful cosmetic operations, we consider these figures proof of our success.",
   },
 ];
 
-const GALLERY = new Array(5).fill(
-  require("./../assets/sharon-mccutcheon-tKnqkvFcmyM-unsplash.jpg")
-);
+const GALLERY = new Array(20)
+  .fill("")
+  .map((_, index) => require(`./../assets/(${index + 1}).png`));
 
 const INFOS = {
   clinicName: "Best clinic istanbul",
   clinicAddress: "",
-  phoneNumber: "",
+  clinicEmail: "bestclinicistanbul@gmail.com",
+  phoneNumber: "+90 555 095 62 16",
   facebookPage: "",
   instagramPage: "",
   whatsappGroup: "",
@@ -403,49 +379,6 @@ const WORK = [
         It is recommended to remove the structural defects of the teeth before the aesthetic teeth whitening procedures. Problems such as fracture of tooth structures, tartar formation, and any caries should be solved before bleaching. If the decays are not treated, it is possible that the bleaching ingredients will leak into the decays. The infiltration might cause problems.`,
         image: require("./../assets/AdobeStock_133965848-Custom-1024x685.jpeg"),
       },
-
-      // {
-      //   title: "Microscope advanced dentistry",
-      //   description:
-      //     "Microscopic dentistry involves the use of state-of-the-art microscopes to provide close-up images of the patient's dental structures. They're strong enough to magnify the gums, teeth, and oral tissue up to 20 times what the naked eye can see on its own",
-      //   image: require("./../assets/Endodontics-Specialist-Services.jpg"),
-      // },
-      // {
-      //   title: "Paediatric dentistry",
-      //   description:
-      //     "Pediatric dentists specialize in oral care for infants, toddlers, children, and teenagers. They are trained to handle: Treatment of children under anesthesia and sedation. Treatment of medically compromised children and adolescents.",
-      //   image: require("./../assets/pediatric-dentistry.jpg"),
-      // },
-      // {
-      //   title: "Crown bridges",
-      //   description:
-      //     "Crowns and bridges are related to dental procedures. A crown is a cap that fits over your tooth to protect and restore its appearance. A bridge replaces a missing tooth, and a crown is fitted to each neighboring tooth, which supports the replacement tooth.",
-      //   image: require("./../assets/Dental-bridge-implant-crown.jpg"),
-      // },
-      // {
-      //   title: "Orthodontic dentistry",
-      //   description:
-      //     "Orthodontics is a branch of dentistry that treats malocclusion, a dental condition in which the teeth are not correctly positioned when the mouth is closed. It deals with facial and jaw irregularities. Improper alignment of the teeth and jaw arches affects coherent speech, chewing, and biting abilities.",
-      //   image: require("./../assets/istockphoto-1129200700-612x612.jpg"),
-      // },
-      // {
-      //   title: "Dental implant",
-      //   description:
-      //     "The dental implant is an artificial tooth root, made of appropriate materials and placed in the jawbone so as to provide the function and aesthetic of the missing teeth. Implant treatment is a comfortable, steady and safe application. The dentures made on the implants form a natural structure, replacing the real teeth. While the missing teeth are completed, the healthy teeth are not touched. Start of the implant applications goes back to the beginning of 1800s. Today, there are almost perfect implants with 35-40 year clinical pursuits in the marke. The quality of the available bone is one of the factors affecting the success of the implant. Also, before the treatment and during the implant’s staying in the mouth, the gingivas should be completely healthy. There is not any upper age limit as long as the patient is fine in terms of general health condition. Still, implants are not recommended for very young patients as their bone development is not complete. The implant can be applied to any person who is fine in terms of general heath conditions. \nIn order to provide full merge of the implants with the bone, the burden on the implants should be minimized for the first 2-3 months. Your doctor will not leave you without teeth, providing a temporary denture for you. Then, the permanent teeth will be installed on your implants and the treatment will be completed.",
-      //   image: require("./../assets/dental-implant-turkey.jpg"),
-      // },
-      // {
-      //   title: "Hollywood smile",
-      //   description:
-      //     "Also known as Dental Veneers, which are ultra-thin veneers that are bonded to the front of the patient’s teeth to enhance the beauty, naturality, and strength of their teeth. Best Clinic Istanbul’s Veneers are highly resistant to staining from coffee, tea, or even cigarette smoking. Also, they are great alternatives to painful dental procedures to improve the appearance of your smile.",
-      //   image: require("./../assets/hollywood-smile.png"),
-      // },
-      // {
-      //   title: "Tooth coloured fillings",
-      //   description:
-      //     "Fillings are used to repair decayed teeth. Bacteria living on the surfaces of the teeth digest sugary/starchy food residue making cavities in the process.",
-      //   image: require("./../assets/AdobeStock_133965848-Custom-1024x685.jpeg"),
-      // },
     ],
     description:
       "Implants are a fixed alternative to removable dentures. They may be the only option if the loss of teeth has caused the mouth to shrink so it can no longer support dentures.  You can use implants to replace just a single tooth or several teeth To fit an implant, titanium screws are drilled into the jaw bone to support a crown, bridge or denture Replacement parts take time to prepare. This is to ensure that they fit your mouth and other teeth properly. This means they may not be available on your first visit to the dentist",
@@ -455,7 +388,7 @@ const WORK = [
 
 const RESERVATION = [
   "Please provide us the date you wish to have the surgery, after checking the flight availability.",
-  "Let us check and confirm the availability of the clinics.",
+  "Let's check and confirm the availability of our clinic.",
   "You can send us the flight ticket confirmation along with the deposit payment.",
   "We will do the organization and confirm with all pre-OP details and information",
 ];
@@ -467,7 +400,30 @@ const PACKAGE = [
   "A medical suitcase includes all the necessary medications after the procedure.",
   "Translators and nurses available 24 hours a day.",
   "A PCR test before your return date.",
-  "A check, and a washing session with the doctor will be scheduled 1 day after the operation.",
+  "Post procedure check-ups for our patients who had cosmetic operations and dental treatments. In addition, a check-up and washing session with our experts after the hair transplant.",
+];
+
+const COUNTERS = [
+  {
+    title: "Dental",
+    count: "4000",
+    icon: "fas fa-tooth",
+  },
+  {
+    title: "Hair transplant",
+    count: "15000",
+    icon: "fas fa-cut",
+  },
+  {
+    title: "Plastic surgery",
+    count: "8500",
+    icon: "fas fa-user-nurse",
+  },
+  {
+    title: "Cosmetic treatements",
+    count: "18000",
+    icon: "fas fa-spa",
+  },
 ];
 
 export {
@@ -480,4 +436,5 @@ export {
   WORK,
   PACKAGE,
   RESERVATION,
+  COUNTERS,
 };
